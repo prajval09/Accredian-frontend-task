@@ -16,7 +16,7 @@ const ReferNowModal = ({ isOpen, onClose }) => {
     e.preventDefault();
     // Handle form submission logic here
     try {
-      const response = await fetch('http://localhost:3000/api/referrals', {
+      const response = await fetch('https://accredian-backend-2l2o.onrender.com/api/referrals', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
